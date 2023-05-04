@@ -8,12 +8,12 @@ export function SignInPage(): JSX.Element {
 
   return (
     <SignInForm
-      projectId="daae901c-c8d7-4246-9f24-486147b82224"
-      googleClientId="679052511930-s86ja7j6371gmdsmmgqrdoe1qmbr0aou.apps.googleusercontent.com"
+      projectId="25d20a04-9784-413f-84b7-6512afc0468d"
+      googleClientId="564614151982-gn1vfuvrufs8ceehhovj5fns1lh6b080.apps.googleusercontent.com"
       onSuccess={() => navigate('/')}
     >
       <Logo size={32} />
-      <Text size="lg">Sign in to Foo Provider</Text>
+      <Text size="lg">Sign in to NHA's Bitchin' Provider App</Text>
     </SignInForm>
   );
 }
